@@ -1,0 +1,58 @@
+/* 
+flexbox un padre acomoda a sus hijos
+cuando el padre es una flexbox los hijos pasan a ser flexitems
+cuando un elemento es flex se le habilitan propiedades flexibles
+
+justify-content: 
+    space-evenly: lo reparte en partes iguales en la pantalla
+    space-between: el primero y el ultimo se pegan a los bordes 
+*/
+
+*{
+    box-sizing: border-box; /* normalizacion */
+    margin : 0;
+    padding: 0;
+}
+
+header{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px
+}
+
+.padre{
+    height: 100vh; /* vewport high  (altura de la pantalla), 100% del alto de la pantalla*/
+    background-color: black;
+    display: flex; /* convierte al contenedor en un flexbox */
+    flex-direction: row; /* los flex items quedan en fila */
+    gap: 20px; /* espacio entre los flex items */
+    justify-content: space-evenly; /* acomoda los flex items en el eje principal */
+}
+
+.hijo{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hijo-1{
+    background-color: red;
+}
+
+.hijo-2{
+    background-color: green;
+}
+
+.hijo-3{
+    background-color: blue;
+}
