@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.header__rog{
+    width: 160px;
+    height: 30px;
+    fill: red;
+}
+
+.header__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__nav-item{
+    font-weight: 500;
+}
+
+.header__nav-item:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.header__r{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__asus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px 24px;
+    fill: white;
+}
+
+.header__btn:hover{
+    fill:red;
+    cursor: pointer;
+}
+
+.header__bar{
+    width: 1.5px;
+    height: 20px;
+    background-color: rgb(121,121,121);
+}

@@ -19,23 +19,25 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    height: 140px;
     padding: 5px 15px;
 }
 
 nav{
     display: flex;
     flex-direction: row;
-    gap: 10px;
-    padding: 5px
+    gap: 5px;
 }
 
 .padre{
-    height: 100vh; /* vewport high  (altura de la pantalla), 100% del alto de la pantalla*/
+    height: calc(100vh - 140px); /* vewport high  (altura de la pantalla), 100% del alto de la pantalla*/
     background-color: black;
     display: flex; /* convierte al contenedor en un flexbox */
-    flex-direction: row; /* los flex items quedan en fila */
+    flex-direction: column; /* los flex items quedan en fila */
     gap: 20px; /* espacio entre los flex items */
-    justify-content: space-evenly; /* acomoda los flex items en el eje principal */
+    justify-content: space-around; /* acomoda los flex items en el eje principal */
+    align-items: center;
 }
 
 .hijo{
