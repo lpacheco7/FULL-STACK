@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto Condensed';
     color: white;
 }
 
@@ -39,7 +39,7 @@ header{
 }
 
 .header__nav-item{
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .header__nav-item:hover{
@@ -75,7 +75,7 @@ header{
 }
 
 .header__bar{
-    width: 1.5px;
+    width: 0.1px;
     height: 20px;
     background-color: rgb(121,121,121);
 }
