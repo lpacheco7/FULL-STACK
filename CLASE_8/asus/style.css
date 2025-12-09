@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed';
     color: white;
+    text-decoration: none;
 }
 
 ul,ol{
@@ -38,7 +39,7 @@ header{
 }
 
 .header__nav-item{
-    font-weight: 400;
+    font-weight: 425;
 }
 
 .header__nav-item:hover{
